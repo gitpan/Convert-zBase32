@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Convert-zBase32.t
+lib/Convert/zBase32.pm
+META.yml                                 Module meta-data (added by MakeMaker)
