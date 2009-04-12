@@ -16,7 +16,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw( encode_zbase32 decode_zbase32 );
 
-our $VERSION = '0.0100';
+our $VERSION = '0.0200';
 $VERSION = eval $VERSION;
 
 our @zBASE32 = qw( y b n d r f g 8 e j k m c p q x 
@@ -191,6 +191,25 @@ Convert a string to zBase32.
     $string = decode_zbase32( $zb );
 
 Convert a string from zBase32.
+
+=head2 encode_base32
+
+    $b = encode_base32( $string );
+
+Convert a string to L</Base32>.
+
+=head2 decode_base32
+
+    $string = decode_base32( $b );
+
+Convert a string from L</Base32>.
+
+=head1 Base32
+
+Base32 is similar to zBase32, but uses the following alphabet:
+
+    a b c d e f g h i j k l m n o p 
+    q r s t u v w x y z 2 3 4 5 6 7
 
 =head1 SEE ALSO
 
