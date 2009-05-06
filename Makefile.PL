@@ -4,6 +4,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     NAME              => 'Convert::zBase32',
+    AUTHOR            => 'Philip Gwyn',
     VERSION_FROM      => 'lib/Convert/zBase32.pm', # finds $VERSION
     LICENSE           => 'perl',
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1

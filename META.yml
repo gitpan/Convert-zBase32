@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Convert-zBase32
-version:             0.0200
+version:             0.0201
 abstract:            Convert human-oriented base-32 encoded strings
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.36

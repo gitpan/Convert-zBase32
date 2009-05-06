@@ -16,7 +16,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw( encode_zbase32 decode_zbase32 );
 
-our $VERSION = '0.0200';
+our $VERSION = '0.0201';
 $VERSION = eval $VERSION;
 
 our @zBASE32 = qw( y b n d r f g 8 e j k m c p q x 
